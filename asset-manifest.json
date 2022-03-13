@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/quannguyen10800/static/css/main.073c9b0a.css",
-    "main.js": "/quannguyen10800/static/js/main.6f406919.js",
+    "main.css": "/quannguyen10800/static/css/main.15b439e5.css",
+    "main.js": "/quannguyen10800/static/js/main.137332c7.js",
     "static/js/787.f7cfe0d3.chunk.js": "/quannguyen10800/static/js/787.f7cfe0d3.chunk.js",
+    "static/media/personal-picture.jpeg": "/quannguyen10800/static/media/personal-picture.d42a9ed61a913923c647.jpeg",
+    "static/media/LineIcons.svg": "/quannguyen10800/static/media/LineIcons.d2e229f7bbdb51adf262.svg",
+    "static/media/LineIcons.eot": "/quannguyen10800/static/media/LineIcons.c4771dd9ed744d283e5d.eot",
+    "static/media/LineIcons.ttf": "/quannguyen10800/static/media/LineIcons.4ac57d3b3f08b5129b08.ttf",
+    "static/media/LineIcons.woff": "/quannguyen10800/static/media/LineIcons.62e764662756aee9ff19.woff",
+    "static/media/bg-personal-testimonials.png": "/quannguyen10800/static/media/bg-personal-testimonials.acea0773f0e481fad09f.png",
+    "static/media/LineIcons.woff2": "/quannguyen10800/static/media/LineIcons.05bb07eed0e1e0695840.woff2",
+    "static/media/bg-personal-clients.png": "/quannguyen10800/static/media/bg-personal-clients.a14a5bb11903e2d7f8b4.png",
+    "static/media/bg-personal-intro.png": "/quannguyen10800/static/media/bg-personal-intro.a1feb41f2bf1f3a639cb.png",
+    "static/media/bg-personal-awards.png": "/quannguyen10800/static/media/bg-personal-awards.05c2672433d697f83a4f.png",
+    "static/media/monumentextended-regular-webfont.woff": "/quannguyen10800/static/media/monumentextended-regular-webfont.605e9ca9b92039fe1b36.woff",
+    "static/media/monumentextended-regular-webfont.woff2": "/quannguyen10800/static/media/monumentextended-regular-webfont.da534d42c62794606959.woff2",
+    "static/media/bg-personal-experience-briefcase.png": "/quannguyen10800/static/media/bg-personal-experience-briefcase.6be83f243e1c835d5450.png",
+    "static/media/bg-personal-experience-device.png": "/quannguyen10800/static/media/bg-personal-experience-device.d56bff7ebd803aa86b2a.png",
     "static/media/logo.svg": "/quannguyen10800/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/quannguyen10800/index.html",
-    "main.073c9b0a.css.map": "/quannguyen10800/static/css/main.073c9b0a.css.map",
-    "main.6f406919.js.map": "/quannguyen10800/static/js/main.6f406919.js.map",
+    "main.15b439e5.css.map": "/quannguyen10800/static/css/main.15b439e5.css.map",
+    "main.137332c7.js.map": "/quannguyen10800/static/js/main.137332c7.js.map",
     "787.f7cfe0d3.chunk.js.map": "/quannguyen10800/static/js/787.f7cfe0d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6f406919.js"
+    "static/css/main.15b439e5.css",
+    "static/js/main.137332c7.js"
   ]
 }
