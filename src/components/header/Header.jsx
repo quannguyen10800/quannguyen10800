@@ -2,14 +2,19 @@ import {useState} from "react";
 
 function Header(props) {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [menuItem, setMenuItem] = useState("PersonalIntro");
+
     function clickMenu() {
         setMenuOpen(!menuOpen);
     }
+
     function selectMenuItem(e, menuItem) {
         e.preventDefault();
         setMenuOpen(false);
+        setMenuItem(menuItem);
         props.selectMenuItem(menuItem);
     }
+
     return (
         <header id="header" className={`header header-fixed ${menuOpen ? "body-menu-opened" : "body-menu-close"}`}>
             <div className="header-bg"/>
@@ -50,31 +55,24 @@ function Header(props) {
             <div className="hide-menu a-nav-toggle"/>
 
             <div className="menu">
-                <div className="menu-lang">
-                    <a href="#" className="menu-lang-item active">Eng</a>
-                    <a href="#" className="menu-lang-item">fra</a>
-                    <a href="#" className="menu-lang-item">ger</a>
-                </div>
-
                 <nav className="menu-main" id="accordion">
                     <ul id="menuMain">
-                        <li data-menuanchor="Intro" className="active"><a href='#'
-                                                                          onClick={(e) => selectMenuItem(e, "PersonalIntro")}>Intro</a></li>
-                        <li data-menuanchor="Services"><a href="#" onClick={(e) => selectMenuItem(e, "PersonalSkill")}>Skills</a></li>
-                        <li data-menuanchor="Projects"><a href="#Projects">Projects</a></li>
-                        <li data-menuanchor="Awards"><a href="#Awards">Awards</a></li>
-                        <li data-menuanchor="Experience"><a href="#Experience">Experience</a></li>
-                        <li data-menuanchor="Clients"><a href="#Clients">Clients</a></li>
-                        <li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a></li>
-                        <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+                        <li className={`${menuItem === 'PersonalIntro' ? 'active' : ''}`}>
+                            <a href='#' onClick={(e) => selectMenuItem(e, "PersonalIntro")}>Intro</a>
+                        </li>
+                        <li className={`${menuItem === 'PersonalSkill' ? 'active' : ''}`}>
+                            <a href="#" onClick={(e) => selectMenuItem(e, "PersonalSkill")}>Skills</a>
+                        </li>
+                        <li className={`${menuItem === 'PersonalExperience' ? 'active' : ''}`}>
+                            <a href="#" onClick={(e) => selectMenuItem(e, "PersonalExperience")}>Experience</a>
+                        </li>
                     </ul>
                 </nav>
 
                 <div className="menu-footer">
                     <ul className="social social-rounded">
-                        <li><a href="#"><i className="lni lni-twitter-filled"/></a></li>
-                        <li><a href="#"><i className="lni lni-behance-original"/></a></li>
-                        <li><a href="#"><i className="lni lni-instagram-original"/></a></li>
+                        <li><a href="https://www.linkedin.com/in/sol7/">Linkedin</a></li>
+                        <li><a href="https://github.com/quannguyen10800">Github</a></li>
                     </ul>
                     <div className="menu-copyright">&copy; QuanNguyen 2022<br/> All Rights Reserved</div>
                 </div>

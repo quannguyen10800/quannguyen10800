@@ -2,6 +2,7 @@ import Header from "../header/Header";
 import PersonalIntro from "../personal-intro/PersonalIntro";
 import PersonalSkill from "../personal-skill/PersonalSkill";
 import {useState} from "react";
+import PersonalExperience from "../personal-experience/PersonalExperience";
 
 function Wrapper() {
     const [activeMenu, setActiveMenu] = useState('PersonalIntro');
@@ -15,6 +16,7 @@ function Wrapper() {
                 <div className="homepage-personal a-pagepiling">
                     {activeMenu === 'PersonalIntro' && <PersonalIntro/>}
                     {activeMenu === 'PersonalSkill' && <PersonalSkill/>}
+                    {activeMenu === 'PersonalExperience' && <PersonalExperience/>}
                 </div>
             </div>
         </>
