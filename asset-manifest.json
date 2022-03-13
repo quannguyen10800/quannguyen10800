@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/quannguyen10800/static/css/main.073c9b0a.css",
+    "main.js": "/quannguyen10800/static/js/main.6f406919.js",
+    "static/js/787.f7cfe0d3.chunk.js": "/quannguyen10800/static/js/787.f7cfe0d3.chunk.js",
+    "static/media/logo.svg": "/quannguyen10800/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/quannguyen10800/index.html",
+    "main.073c9b0a.css.map": "/quannguyen10800/static/css/main.073c9b0a.css.map",
+    "main.6f406919.js.map": "/quannguyen10800/static/js/main.6f406919.js.map",
+    "787.f7cfe0d3.chunk.js.map": "/quannguyen10800/static/js/787.f7cfe0d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6f406919.js"
+  ]
+}
