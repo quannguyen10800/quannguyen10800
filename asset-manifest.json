@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/quannguyen10800/static/css/main.15b439e5.css",
-    "main.js": "/quannguyen10800/static/js/main.137332c7.js",
+    "main.css": "/quannguyen10800/static/css/main.ade73824.css",
+    "main.js": "/quannguyen10800/static/js/main.c80bbb00.js",
     "static/js/787.f7cfe0d3.chunk.js": "/quannguyen10800/static/js/787.f7cfe0d3.chunk.js",
     "static/media/personal-picture.jpeg": "/quannguyen10800/static/media/personal-picture.d42a9ed61a913923c647.jpeg",
     "static/media/LineIcons.svg": "/quannguyen10800/static/media/LineIcons.d2e229f7bbdb51adf262.svg",
@@ -19,12 +19,12 @@
     "static/media/bg-personal-experience-device.png": "/quannguyen10800/static/media/bg-personal-experience-device.d56bff7ebd803aa86b2a.png",
     "static/media/logo.svg": "/quannguyen10800/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/quannguyen10800/index.html",
-    "main.15b439e5.css.map": "/quannguyen10800/static/css/main.15b439e5.css.map",
-    "main.137332c7.js.map": "/quannguyen10800/static/js/main.137332c7.js.map",
+    "main.ade73824.css.map": "/quannguyen10800/static/css/main.ade73824.css.map",
+    "main.c80bbb00.js.map": "/quannguyen10800/static/js/main.c80bbb00.js.map",
     "787.f7cfe0d3.chunk.js.map": "/quannguyen10800/static/js/787.f7cfe0d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15b439e5.css",
-    "static/js/main.137332c7.js"
+    "static/css/main.ade73824.css",
+    "static/js/main.c80bbb00.js"
   ]
 }
