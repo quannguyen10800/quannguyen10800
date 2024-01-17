@@ -11,7 +11,7 @@ function PersonalSkill() {
                     <div className="row">
                         <div className="col-md-4">
                             <div className="animate-element delay5 fadeInDown">
-                                <h2 className="slide-title slide-title-personal-services slide-title-lg">1</h2>
+                                <h2 className="slide-title slide-title-personal-services slide-title-lg">2</h2>
                                 <div className="d-md-none">
                                     <div className="slide-title-sub slide-title-sub-sm">YEAR EXPERIENCE</div>
                                     <div className="slide-descr slide-descr-personal-services font-italic">
@@ -40,10 +40,16 @@ function PersonalSkill() {
                         <div className="col-md-8">
                             <div className="service-list row">
                                 <div className="col-md-6">
-                                    <div className="service-item">
+                                    <div className="service-item-descr slide-descr">
                                         <div className="service-item-title slide-title-sub">ReactJS</div>
-                                        <div className="service-item-descr slide-descr">Develop frontend website using React & Javascript
-                                        </div>
+                                        <ul>
+                                            <li>React</li>
+                                            <li>AWS</li>
+                                            <li>Angular</li>
+                                            <li>JUnit</li>
+                                            <li>Jupyter</li>
+
+                                        </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-6">

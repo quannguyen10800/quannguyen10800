@@ -10,6 +10,10 @@ import './App.css';
 import PreLoader from "./components/pre-loader/PreLoader";
 import {useEffect, useState} from "react";
 import Wrapper from "./components/wrapper/Wrapper";
+import PersonalSkill from "./components/personal-skill/PersonalSkill";
+import PersonalIntro from "./components/personal-intro/PersonalIntro";
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -18,6 +22,7 @@ function App() {
     }, 3000);
   })
   return (
+
     <div className="body-copyright-light">
       {loading && <PreLoader/>}
       {!loading && <Wrapper/>}
@@ -35,7 +40,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+      
     </div>
+
+
   );
 }
 

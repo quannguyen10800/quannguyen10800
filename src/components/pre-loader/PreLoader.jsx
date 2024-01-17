@@ -2,9 +2,9 @@ function PreLoader() {
     return (
         <div className="preloader">
             <div className="three-bounce">
-                <div className="one"/>
-                <div className="two"/>
-                <div className="three"/>
+                <div className="I"/>
+                <div className="II"/>
+                <div className="III"/>
             </div>
         </div>
     )

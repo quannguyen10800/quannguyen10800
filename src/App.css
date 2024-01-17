@@ -135,7 +135,7 @@ input:focus {
 
 .btn-success {
   transition: box-shadow .3s ease-in-out;
-  transition-delay: 0;
+  transition-delay: inherit;
 }
 
 .btn-success:hover,

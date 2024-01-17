@@ -1,4 +1,7 @@
 function PersonalIntro() {
+
+
+
     return (
         <div className={`section pp-scrollable slide-dark slide-dark-footer slide-personal-intro pp-section pp-easing active`}>
             <div className="slide-container">
@@ -14,13 +17,21 @@ function PersonalIntro() {
                             <h1 className="slide-title animate-element delay5 fadeInDown">Quan Nguyen</h1>
                             <div className="animate-element delay5 fadeInUp">
                                 <h3 className="slide-title-sub">Javascript &amp; React, Angular Frontend Website Developer</h3>
-                                <div className="slide-descr slide-descr-intro"> I'm Quan Nguyen, a third-year Computer Science student in
-                                    Concordia University, Montreal Quebec Canada. I'm seeking for an internship opportunity.
+                                <div className="slide-descr slide-descr-intro"> I'm Quan Nguyen, a Computer Science graduate in
+                                    Concordia University, Montreal Quebec Canada. I'm seeking for a job opportunity.
+                                    I am a highly motivated Computer Science graduate from Concordia University,
+                                    located in Montreal, Quebec, Canada. Throughout my academic journey, I have gained a solid foundation
+                                    in computer science principles and acquired hands-on experience through various projects and coursework.
+                                    My studies have equipped me with a strong proficiency in areas such as JavaScript and React, as well as
+                                    Angular for frontend web development. I am passionate about leveraging cutting-edge technologies to create
+                                    innovative and user-friendly solutions.
                                 </div>
                                 <div className="slide-btn">
                                     <button className="btn btn-success" data-toggle="modal"
-                                            data-target="#send-request">get started
+                                            data-target="#send-request"><a href="mailto:bibonguyen14@gmail.com"
+                                                                               className="mail-link">network with me</a>
                                     </button>
+
                                 </div>
                             </div>
                         </div>

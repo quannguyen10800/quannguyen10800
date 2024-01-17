@@ -50,8 +50,9 @@ function PersonalExperience() {
                             </div>
                         </div>
                         <div className="slide-btn">
-                            <a href="https://quannguyen10800.github.io/quannguyen10800/resume-quan-nguyen.pdf" className="btn btn-success"><i className="lni lni-download mr-3"></i>download my
-                                cv</a>
+                            <a href={process.env.PUBLIC_URL + '/Resume_QuanNguyen2.pdf'} download="Resume_QuanNguyen2.pdf" className="btn btn-success">
+                                <i className="lni lni-download mr-3"></i>Download My CV
+                            </a>
                         </div>
                     </div>
                 </div>

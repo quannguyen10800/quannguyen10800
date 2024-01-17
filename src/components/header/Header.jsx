@@ -20,7 +20,7 @@ function Header(props) {
             <div className="header-bg"/>
             <div className="container-fluid clearfix">
                 <div className="brand">
-                    <a href="#Intro">
+                    <a href="#">
                         <div className="brand-name font-custom">Quan Nguyen</div>
                     </a>
                 </div>
@@ -39,12 +39,10 @@ function Header(props) {
                         </div>
                         <div className="col-md-9">
                             <div className="header-contacts">
-                                <div className="header-contact-item">Call me.&nbsp; <a href="tel:+151498310081"
-                                                                                       className="phone-link">
-                                    +1(514)9831008</a></div>
+                                <div className="header-contact-item">Call me.&nbsp;
+                                    +1(514)-983-1008</div>
                                 <div className="header-contact-divider">/</div>
-                                <div className="header-contact-item"><a href="mailto:bibonguyen1478@gmail.com"
-                                                                        className="mail-link">bibonguyen1478@gmail.com</a>
+                                <div className="header-contact-item">bibonguyen14@gmail.com
                                 </div>
                             </div>
                         </div>
@@ -58,13 +56,13 @@ function Header(props) {
                 <nav className="menu-main" id="accordion">
                     <ul id="menuMain">
                         <li className={`${menuItem === 'PersonalIntro' ? 'active' : ''}`}>
-                            <a href='#' onClick={(e) => selectMenuItem(e, "PersonalIntro")}>Intro</a>
+                            <a href='#Intro' onClick={(e) => selectMenuItem(e, "PersonalIntro")}>Intro</a>
                         </li>
                         <li className={`${menuItem === 'PersonalSkill' ? 'active' : ''}`}>
-                            <a href="#" onClick={(e) => selectMenuItem(e, "PersonalSkill")}>Skills</a>
+                            <a href="#Skills" onClick={(e) => selectMenuItem(e, "PersonalSkill")}>Skills</a>
                         </li>
                         <li className={`${menuItem === 'PersonalExperience' ? 'active' : ''}`}>
-                            <a href="#" onClick={(e) => selectMenuItem(e, "PersonalExperience")}>Experience</a>
+                            <a href="#Experience" onClick={(e) => selectMenuItem(e, "PersonalExperience")}>Experience</a>
                         </li>
                     </ul>
                 </nav>
